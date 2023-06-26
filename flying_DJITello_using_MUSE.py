@@ -13,6 +13,9 @@ from scipy.ndimage.filters import gaussian_filter
 
 
 def frame_read():
+     """
+    Continuously reads frames from the drone's video stream and puts them into a queue.
+    """
     while True:
         # Get the next frame from the video stream
         frame = tello.get_frame_read().frame
@@ -23,6 +26,9 @@ def frame_read():
 
 
 def display_frames():
+    """
+    Continuously retrieves frames from the queue and displays them using OpenCV.
+    """
     while True:
         if not frame_queue.empty():
             frame = frame_queue.get()
