@@ -20,7 +20,7 @@ You can install the dependencies by running the following command:
 ```shell
 pip install matplotlib pylsl djitellopy opencv-python numpy scipy
 
-#Usage
+## Usage
 1. Connect your Muse2 EEG device via BlueMuse (Bluetooth).
 2. Connect your Tello drone to your computer via Wi-Fi.
 3. Run the script
