@@ -6,7 +6,7 @@ This script enables you to control a Tello drone using eye blinks and head movem
 
 Before running the script, make sure you have the following prerequisite installed:
 - Python (version 3.x)
-- 
+  
 ## Usage
 1. Connect your Muse2 EEG device via BlueMuse (Bluetooth).
 2. Connect your Tello drone to your computer via Wi-Fi.
@@ -14,9 +14,9 @@ Before running the script, make sure you have the following prerequisite install
    The script will start capturing EEG data and accelerometer readings from the Muse2 device.
 
 To control the drone:
-Blink your eyes to trigger the drone's ascent.
-Tilt your head up or down to make the drone move forward or down.
-Tilt your head left or right to rotate the drone.
+- Blink your eyes to trigger the drone's ascent.
+- Tilt your head up or down to make the drone move forward or down.
+- Tilt your head left or right to rotate the drone.
 
 Note: Ensure that your Tello drone is in a safe and open environment before flying it.
   
