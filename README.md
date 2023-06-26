@@ -1,7 +1,7 @@
 # Drone Control with EEG and Accelerometer
 
 This script enables you to control a Tello drone using eye blinks and head movements captured from a Muse2 EEG device. The script utilizes the Muse LSL library to stream EEG data and accelerometer readings to control the drone's flight.
-
+It also includes functionality to display frames from the drone's camera and generate graphs based on the collected data.
 ## Prerequisites
 
 Before running the script, make sure you have the following prerequisite installed:
