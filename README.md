@@ -33,7 +33,7 @@ To control the drone:
 - Tilt your head left or right to rotate the drone.
 
 Note: Ensure that your Tello drone is in a safe and open environment before flying it.
-## breakdown of the script and its documentation
+## Documentation
 
 1. Importing Libraries:
    - `matplotlib`: A plotting library for creating visualizations.
